@@ -71,7 +71,6 @@ $(function() {
 	  
 	    // Select all circle elements within your g and transition their position using your positioning function
 		g.selectAll('circle').transition().duration(1500).call(circleFunc)     
-
 	
 	}
 
